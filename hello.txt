@@ -1,8 +1,17 @@
 hello word,I'm Coding.
 git là 1 hệ thống quản lý phiên bản
 repository trong git là một kho lưu trữ mã nguồn lịch sử thay đổi và các thông tin liên quan đến git
+staging area (vùng nhớ kiểm tra trước khi commit (đánh dấu phiên bản)những cái cần thay đổi)
+Lệnh dùng 1 lần khi cài đặt git
+git config --global user.name "Ly12722"
+git config --global user.email "lyha12722@gmail.com"
 các lệnh thường sử dụng:
 git init : Khởi tạo ra Repository Local (.git)
-git add <tên_file> : Đẩy các work folder vào trong staging area.
-work foder (dự án) | staging area (vùng nhớ kiểm tra trước khi commit (đánh dấu phiên bản)những cái cần thay đổi) |  Repository Local(kho lưu trữ trên máy tính) | repository github kho lưu trữ trên github
-    hello.txt
+git add <tên_file> : Đẩy các work folder vào trong staging area.(git add . : đẩy tất cả thay đổi vào stagin area)
+git commit -m "<nội_dung_commit>" : Đẩy các thay đổi từ staging area sang repo local và chụp lại một snapshot(dấu mốc đánh dấu phiên bản)
+Tạo repo trên Github
+git remote add origin https://github.com/Ly12722/TrinhBayGit.git : Kết nối repo local với repo online trên github.
+git push : Đẩy các thay đổi từ repo local lên repo online.
+work foder (dự án) | staging area |  Repository Local(kho lưu trữ trên máy tính) | repository github kho lưu trữ trên github
+      index.html
+      hello.txt
