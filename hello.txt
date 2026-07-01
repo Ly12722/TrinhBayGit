@@ -12,6 +12,7 @@ git commit -m "<nội_dung_commit>" : Đẩy các thay đổi từ staging area 
 Tạo repo trên Github
 git remote add origin https://github.com/Ly12722/TrinhBayGit.git : Kết nối repo local với repo online trên github.
 git push : Đẩy các thay đổi từ repo local lên repo online.
+note: lệnh git ingit và git add dùng 1 lần khi tạo dự án
 work foder (dự án) | staging area |  Repository Local(kho lưu trữ trên máy tính) | repository github kho lưu trữ trên github
-      index.html
-      hello.txt
+                                                                                                      index.html
+                                                                                                      hello.txt
